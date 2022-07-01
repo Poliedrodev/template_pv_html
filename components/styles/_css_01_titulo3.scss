@@ -1,101 +1,64 @@
 .css_01_titulo3 {
 
-  /* Características do texto */
-  font-family: $fontName;
-  font-weight: 800;
-  font-size: 24px;
-  color: $preto;
+    /* Características do componente */
 
-  /* Características do componente */
-  display: block;
-  margin-top: 20px;
-  padding: 0 68px;
-  margin-bottom: 0px;
-  line-height: 1.5em;
+    display: block;
+    font-family: $fontTitulo;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 40px 0px 15px 0px;
+    padding: 0px 0px 0px 0px;
 
-  /* Variações de cores */
-  &.artes {
-    color: $art_cor1;
-  }
-  
-  &.biologia {
-    color: $bio_cor1;
-  }
-  
-  &.ciencias {
-    color: $cie_cor1;
-  }
-  
-  &.educacao_fisica {
-    color: $edf_cor1;
-  }
-  
-  &.filosofia {
-    color: $fil_cor1;
-  }
-  
-  &.fisica {
-    color: $fis_cor1;
-  }
-  
-  &.geografia {
-    color: $geo_cor1;
-  }
-  
-  &.gramatica {
-    color: $gra_cor1;
-  }
-  
-  &.historia {
-    color: $his_cor1;
-  }
-  
-  &.integrado {
-    color: $int_cor1;
-  }
-  
-  &.inter_de_texto {
-    color: $itx_cor1;
-  }
-  
-  &.lingua_espanhola {
-    color: $esp_cor1;
-  }
-  
-  &.lingua_inglesa {
-    color: $ing_cor1;
-  }
-  
-  &.lingua_portuguesa {
-    color: $por_cor1;
-  }
-  
-  &.linguagens {
-    color: $lin_cor1;
-  }
-  
-  &.literatura {
-    color: $lit_cor1;
-  }
+    /* Variações de cores */
+    &.artes {
+      color: $art_cor3;
+    }
 
-  &.matematica {
-    color: $mat_cor1;
-  }
+    &.biologia {
+        color: $bio_cor3;
+    }
 
-  &.musica {
-    color: $mus_cor1;
-  }
-
-  &.producao_de_texto {
-    color: $ptx_cor1;
-  }
+    &.fisica {
+      color: $fis_cor3;
+    }
 
   &.quimica {
-    color: $qui_cor1;
-  }
+    color: $qui_cor3;
+    }
 
-  &.sociologia {
-    color: $soc_cor1;
-  }
+    &.geografia {
+        color: $geo_cor3;
+    }
+
+    &.historia {
+        color: $his_cor3;
+    }
+
+    &.lingua_inglesa {
+        color: $ing_cor3;
+    }
+
+    &.lingua_portuguesa {
+        color: $por_cor3;
+    }
+
+    &.redacao {
+      color: $red_cor3;
+    }
+
+    &.int_texto {
+    color: $int_cor3;
+    }
+
+    &.matematica {
+        color: $mat_cor3;
+    }
+
+    &.sociologia{
+      color: $soc_cor3;
+    }
+    &.filosofia{
+      color: $fil_cor3;
+    }
 
 }

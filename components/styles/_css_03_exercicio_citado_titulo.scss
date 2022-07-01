@@ -1,10 +1,10 @@
-.css_03_exercicio_citado_titulo {
-  font-family: 'Noticia Text';
-  font-weight: 700;
-  color: #000000;
-  line-height: 1.5em;
+.css_02_texto_citado_titulo {
+  font-family: $fonteSerifa;
+  font-weight: 400;
+  color: $cinza;
+  line-height: 1.5rem;
   font-size: 20px;
   display: block;
-  margin-top: 24px;
-  display: block;
+  margin-top: 16px;
+  text-align: left;
 }
