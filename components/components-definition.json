@@ -112,6 +112,21 @@
         },
 
         {
+            "name": "css_01_titulo5",
+            "icon": "icons/components/icon_01_titulo4.svg",
+            "label": "01 Título 5",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+
+        {
+            "name": "css_01_titulo6",
+            "icon": "icons/components/icon_01_titulo4.svg",
+            "label": "01 Título 6",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+
+
+        {
             "name": "css_02_texto_bullet",
             "icon": "icons/components/icon_02_texto_bullet.svg",
             "label": "02 Texto Bullet",
@@ -202,12 +217,7 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
 
-        {
-            "name": "css_02_texto_manuscrito",
-            "icon": "icons/components/icon_02_texto_manuscrito.svg",
-            "label": "02 Texto Manuscrito",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
-        },
+
 
         {
             "name": "css_02_texto_vocabulario",
@@ -306,6 +316,22 @@
             "label": "03 Exercício Texto",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
+        {
+            "name": "css_99_bancoquestao",
+            "icon": "icons/components/icon_03_exercicio_enunciado.svg",
+            "label": "Metadado Questão",
+            "properties": [
+              "style",
+              "text-align",
+              "letter-spacing",
+              "line-height"
+            ],
+            "directiveOptions": {
+              "text": {
+                "stripStylingOnPaste": true
+              }
+            }
+          },
 
         {
             "name": "css_04_professor_comentario",
@@ -1046,7 +1072,10 @@
                 "css_01_titulo1",
                 "css_01_titulo2",
                 "css_01_titulo3",
-                "css_01_titulo4"
+                "css_01_titulo4",
+                "css_01_titulo5",
+                "css_01_titulo6"
+
             ]
         },
 
@@ -1066,7 +1095,6 @@
                 "css_02_texto_glossario_titulo",
                 "css_02_texto_glossario",
                 "css_02_texto_item",
-                "css_02_texto_manuscrito",
                 "css_02_texto_vocabulario"
             ]
         },
@@ -1075,6 +1103,7 @@
             "label": "03 exercicios",
             "name": "03_exercicios",
             "components": [
+                "css_99_bancoquestao",
                 "css_03_exercicio_alternativa",
                 "css_03_exercicio_bullet",
                 "css_03_exercicio_citado_titulo",
@@ -1385,107 +1414,73 @@
                     },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "artes" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Artes" } },
                         "value": "artes"
                     },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "biologia" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Biologia" } },
                         "value": "biologia"
                     },
 
+                   
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "ciencias" } },
-                        "value": "ciencias"
-                    },
-
-                    {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "educacao_fisica" } },
-                        "value": "educacao_fisica"
-                    },
-
-                    {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "filosofia" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Filosofia" } },
                         "value": "filosofia"
                     },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "fisica" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Física" } },
                         "value": "fisica"
                     },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "geografia" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Geografia" } },
                         "value": "geografia"
                     },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "gramatica" } },
-                        "value": "gramatica"
-                    },
-
-                    {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "historia" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "História" } },
                         "value": "historia"
                     },
 
-                    {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "integrado" } },
-                        "value": "integrado"
-                    },
+                 
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "inter_de_texto" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Interpretação de texto" } },
                         "value": "inter_de_texto"
                     },
 
-                    {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "lingua_espanhola" } },
-                        "value": "lingua_espanhola"
-                    },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "lingua_inglesa" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Língua inglesa" } },
                         "value": "lingua_inglesa"
                     },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "lingua_portuguesa" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Língua portuguesa" } },
                         "value": "lingua_portuguesa"
                     },
 
+                
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "linguagens" } },
-                        "value": "linguagens"
-                    },
-
-                    {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "literatura" } },
-                        "value": "literatura"
-                    },
-
-                    {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "matematica" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Matemática" } },
                         "value": "matematica"
                     },
 
+                   
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "musica" } },
-                        "value": "musica"
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Redação" } },
+                        "value": "redacao"
                     },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "producao_de_texto" } },
-                        "value": "producao_de_texto"
-                    },
-
-                    {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "quimica" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Química" } },
                         "value": "quimica"
                     },
 
                     {
-                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "sociologia" } },
+                        "caption": { "key": "PROPERTY_VARIANT_STYLE_OPTION", "values": { "0": "Sociologia" } },
                         "value": "sociologia"
                     }
 

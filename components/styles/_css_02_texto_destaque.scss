@@ -4,7 +4,6 @@
   font-size: 17px;
   font-family: $fontPrincipal;
   font-weight: 300;
-  text-transform: uppercase;
   margin: 0px;
   line-height: 1.5em;
   padding: 24px;
@@ -43,6 +42,9 @@
 
   &.redacao {
     border: 1px solid $red_cor1;
+  }
+  &.inter_de_texto {
+    border: 1px solid $int_cor1;
   }
 
   &.matematica {
