@@ -1,0 +1,42 @@
+.secao {
+  margin-top: 16px;
+
+  .chapeu_secao {
+    display: flex;
+    height: 36px;
+    background: linear-gradient(270deg, #005F8D 0%, #0089CD 100%);
+
+    .backgound_text {
+      background-color: #8AB5E1;
+      border-radius: 0px 0px 15px 0px;
+
+      padding: 6px;
+      padding-right: 14px;
+      padding-left: 16px;
+
+      .text_secao {
+        color: #fff;
+        font-family: $fontTitulo;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+
+    .bars_colors {
+      width: 100%;
+      height: 36px;
+      display: flex;
+      flex-direction: column;
+
+      .bar_top {
+        width: 100%;
+        height: 13px;
+        background-color: #8AB5E1;
+      }
+    }
+  }
+  .group_questions[doc-container]:empty {
+    min-height: 100px;
+    background-color: #fff0f0;}
+}

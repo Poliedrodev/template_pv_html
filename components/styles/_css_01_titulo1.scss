@@ -23,24 +23,6 @@
     }
   }
 
-  &.ciencias {
-    .line{
-      background-color: $seg_nat_cor1;
-    }
-    .text{
-      color: $cie_cor2;
-    }
-  }
-
-  &.educacao_fisica {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
-    .text{
-      color: $edf_cor2;
-    }
-  }
-
   &.filosofia {
     .line{
       background-color: $seg_hum_cor1;
@@ -68,15 +50,6 @@
     }
   }
 
-  &.gramatica {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
-    .text{
-      color: $gra_cor2;
-    }
-  }
-
   &.historia {
     .line{
       background-color: $seg_hum_cor1;
@@ -100,16 +73,7 @@
       background-color: $seg_lin_cor1;
     }
     .text{
-      color: $itx_cor1;
-    }
-  }
-
-  &.lingua_espanhola {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
-    .text{
-      color: $esp_cor2;
+      color: $int_cor1;
     }
   }
 
@@ -131,24 +95,6 @@
     }
   }
 
-  &.linguagens {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
-    .text{
-      color: $lin_cor2;
-    }
-  }
-
-  &.literatura {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
-    .text{
-      color: $lit_cor2;
-    }
-  }
-
   &.matematica {
     .line{
       background-color: $seg_mat_cor1;
@@ -158,24 +104,6 @@
     }
   }
   
-  &.musica {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
-    .text{
-      color: $mus_cor2;
-    }
-  }
-
-  &.producao_de_texto {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
-    .text{
-      color: $ptx_cor2;
-    }
-  }
-
   &.quimica {
     .line{
       background-color: $seg_nat_cor1;

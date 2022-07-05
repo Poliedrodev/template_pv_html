@@ -20,14 +20,6 @@
     color: $bio_cor1;
   }
 
-  &.ciencias {
-    color: $cie_cor1;
-  }
-
-  &.educacao_fisica {
-    color: $edf_cor1;
-  }
-
   &.filosofia {
     color: $fil_cor1;
   }
@@ -39,11 +31,7 @@
   &.geografia {
     color: $geo_cor1;
   }
-
-  &.gramatica {
-    color: $gra_cor1;
-  }
-
+  
   &.historia {
     color: $his_cor1;
   }
@@ -53,11 +41,7 @@
   }
 
   &.inter_de_texto {
-    color: $itx_cor1;
-  }
-
-  &.lingua_espanhola {
-    color: $esp_cor1;
+    color: $int_cor1;
   }
 
   &.lingua_inglesa {
@@ -68,24 +52,8 @@
     color: $por_cor1;
   }
 
-  &.linguagens {
-    color: $lin_cor1;
-  }
-
-  &.literatura {
-    color: $lit_cor1;
-  }
-
   &.matematica {
     color: $mat_cor1;
-  }
-
-  &.musica {
-    color: $mus_cor1;
-  }
-
-  &.producao_de_texto {
-    color: $ptx_cor1;
   }
 
   &.quimica {
