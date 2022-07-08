@@ -1,10 +1,33 @@
 .css_02_texto_destaque {
-  display: block;
-  color: #FFFFFF;
-  font-size: 60px;
-  font-family: $fontName;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0px;
-  line-height: 1.5em;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #C51A1B;
+
+  .header_texto_destaque {
+    display: grid;
+    place-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+    text-align: center;
+    border-bottom: 1px solid #C51A1B;
+
+    .title_texto_destaque {
+      font-family: $fontPrincipal;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 24px;
+      color: #000000;
+    }
+  }
+
+  .main_texto_destaque{
+    padding-left: 40;
+    padding-right: 40;
+    padding-top: 27px;
+    padding-bottom: 32px;
+  }
+
 }

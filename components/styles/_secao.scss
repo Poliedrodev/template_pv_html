@@ -1,13 +1,15 @@
 .secao {
   margin-top: 16px;
+  border-top: 2px dotted $blue_light;
+  padding-top: 8px;
 
   .chapeu_secao {
     display: flex;
     height: 36px;
-    background: linear-gradient(270deg, #005F8D 0%, #0089CD 100%);
+    background: linear-gradient(270deg, $purple 0%, $blue 100%);
 
     .backgound_text {
-      background-color: #8AB5E1;
+      background-color: $blue_light;
       border-radius: 0px 0px 15px 0px;
 
       padding: 6px;
@@ -20,23 +22,799 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 24px;
+        white-space: nowrap;
       }
     }
 
     .bars_colors {
       width: 100%;
-      height: 36px;
-      display: flex;
-      flex-direction: column;
 
       .bar_top {
         width: 100%;
         height: 13px;
-        background-color: #8AB5E1;
+        background-color: $blue_light;
+      }
+    }
+
+    .group_questions[doc-container]:empty {
+      min-height: 100px;
+      background-color: #fff0f0;
+    }
+  }
+
+  &._revisando {
+    border-top: 2px dotted $blue_light;
+
+    .chapeu_secao {
+      background: linear-gradient(270deg, $purple 0%, $blue 100%);
+
+      .backgound_text {
+        background-color: $blue_light;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $blue_light;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $blue_light  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $blue_light  !important;
+        }
       }
     }
   }
-  .group_questions[doc-container]:empty {
-    min-height: 100px;
-    background-color: #fff0f0;}
+
+  // 1- exercicios_propostos
+  &._exercicios_propostos._cie_hu_so_api {
+    border-top: 2px dotted $seg_hum_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(270deg, $seg_hum_cor2 0%, $seg_hum_cor3 100%);
+
+      .backgound_text {
+        background-color: $seg_hum_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $seg_hum_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_hum_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_hum_cor1  !important;
+        }
+      }
+    }
+  }
+
+  &._exercicios_propostos._mat_su_tec {
+    border-top: 2px dotted $seg_mat_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(270deg, $seg_mat_cor2 0%, $seg_mat_cor3 100%);
+
+      .backgound_text {
+        background-color: $seg_mat_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $seg_mat_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_mat_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_mat_cor1  !important;
+        }
+      }
+    }
+  }
+
+  &._exercicios_propostos._cie_hu_su_tec {
+    border-top: 2px dotted$seg_nat_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(270deg, $seg_nat_cor2 0%, $seg_nat_cor3 100%);
+
+      .backgound_text {
+        background-color: $seg_nat_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $seg_nat_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_nat_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_nat_cor1  !important;
+        }
+      }
+    }
+  }
+
+
+  &._exercicios_propostos._lin_su_tec {
+    border-top: 2px dotted $seg_lin_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(270deg, $seg_lin_cor2 0%, $seg_lin_cor3 100%);
+
+      .backgound_text {
+        background-color: $seg_lin_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $seg_lin_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_lin_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_lin_cor1  !important;
+        }
+      }
+    }
+  }
+
+  &._exercicios_propostos._cie_hu_so_api {
+    border-top: 2px dotted $seg_hum_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(270deg, $seg_hum_cor2 0%, $seg_hum_cor3 100%);
+
+      .backgound_text {
+        background-color: $seg_hum_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $seg_hum_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_hum_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_hum_cor1  !important;
+        }
+      }
+    }
+  }
+  // FIM 1- exercicios_propostos
+
+  // 2- variações de materias BNCC
+  &._BNCC_em_foco.artes {
+    border-top: 2px dotted $art_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $art_cor3 0%, $art_cor2 100%);
+
+      .backgound_text {
+        background-color: $art_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $art_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_lin_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_lin_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.biologia {
+    border-top: 2px dotted $bio_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $bio_cor3 0%, $bio_cor2 100%);
+
+      .backgound_text {
+        background-color: $bio_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $bio_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_nat_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_nat_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.filosofia {
+    border-top: 2px dotted $fil_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $fil_cor3 0%, $fil_cor2 100%);
+
+      .backgound_text {
+        background-color: $fil_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $fil_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_hum_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_hum_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.fisica {
+    border-top: 2px dotted $fis_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $fis_cor3 0%, $fis_cor2 100%);
+
+      .backgound_text {
+        background-color: $fis_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $fis_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_nat_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_nat_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.geografia {
+    border-top: 2px dotted $geo_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $geo_cor3 0%, $geo_cor2 100%);
+
+      .backgound_text {
+        background-color: $geo_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $geo_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_hum_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_hum_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.historia {
+    border-top: 2px dotted $his_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $his_cor3 0%, $his_cor2 100%);
+
+      .backgound_text {
+        background-color: $his_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $his_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_hum_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_hum_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.inter_de_texto {
+    border-top: 2px dotted $int_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $int_cor3 0%, $int_cor2 100%);
+
+      .backgound_text {
+        background-color: $int_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $int_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_lin_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_lin_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.lingua_inglesa {
+    border-top: 2px dotted $ing_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $ing_cor3 0%, $ing_cor2 100%);
+
+      .backgound_text {
+        background-color: $ing_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $ing_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_lin_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_lin_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.lingua_portuguesa {
+    border-top: 2px dotted $por_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $por_cor3 0%, $por_cor2 100%);
+
+      .backgound_text {
+        background-color: $por_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $por_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_lin_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_lin_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.matematica {
+    border-top: 2px dotted $mat_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $mat_cor3 0%, $mat_cor2 100%);
+
+      .backgound_text {
+        background-color: $mat_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $mat_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_mat_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_mat_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.redacao {
+    border-top: 2px dotted $red_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $red_cor3 0%, $red_cor2 100%);
+
+      .backgound_text {
+        background-color: $red_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $red_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_lin_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_lin_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.quimica {
+    border-top: 2px dotted $qui_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $qui_cor3 0%, $qui_cor2 100%);
+
+      .backgound_text {
+        background-color: $qui_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $qui_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_nat_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_nat_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._BNCC_em_foco.sociologia {
+    border-top: 2px dotted $soc_cor1;
+
+    .chapeu_secao {
+      background: linear-gradient(90deg, $soc_cor3 0%, $soc_cor2 100%);
+
+      .backgound_text {
+        background-color: $soc_cor1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $soc_cor1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $seg_hum_cor1  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $seg_hum_cor1  !important;
+        }
+      }
+    }
+
+    ._05bncc {
+      display: block;
+    }
+  }
+
+  &._exercicios_complementares {
+    border-top: 2px dotted $color_1;
+
+    .chapeu_secao {
+      background: linear-gradient(270deg, #7B0041 0%, #E50051 100%);
+
+      .backgound_text {
+        background-color: $color_1;
+
+        .text_secao {
+          color: #fff;
+        }
+      }
+
+      .bars_colors {
+        .bar_top {
+          background-color: $color_1;
+        }
+      }
+    }
+
+    .background_number {
+      .number_exercicio {
+        color: $geral_1A  !important;
+
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: $geral_1A  !important;
+        }
+      }
+    }
+  }
 }

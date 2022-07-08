@@ -12,7 +12,7 @@
   list-style: none;
   position: relative;
 
-  .group_item :first-child{
+  .group_item :first-child {
     margin-top: 0 !important;
   }
 
@@ -24,6 +24,7 @@
     position: absolute;
     left: -32px;
     top: 0;
+    color: $alternativas;
   }
 
   &::before {
@@ -33,5 +34,6 @@
     content: ")";
     position: absolute;
     left: -16px;
+    color: $alternativas;
   }
 }

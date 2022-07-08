@@ -11,7 +11,7 @@
 
   list-style: none;
   position: relative;
-
+  
   &::before {
     font-family: $fontName;
     font-size: $fontSizeIndiceQuestion;
@@ -20,5 +20,6 @@
     content: counter(list, lower-alpha) ")";
     position: absolute;
     left: -30px;
+    color: $alternativas;
   }
 }

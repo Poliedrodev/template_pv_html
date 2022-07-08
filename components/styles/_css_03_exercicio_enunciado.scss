@@ -6,4 +6,15 @@
   color: $textColor;
   line-height: 1.5em;
   font-size: $fontSizeQuestion;
+
+  .css_03_exercicio_enunciado_bold{
+    display: none;
+  }
+
+  &._add_credit{
+    .css_03_exercicio_enunciado_bold{
+      font-weight: bold;
+      display: inline-block;
+    }
+  }
 }

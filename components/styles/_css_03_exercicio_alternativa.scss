@@ -2,8 +2,8 @@
   margin-top: 16px;
 
   font-family: $fontName;
-  font-weight: 400;
-  color: $textColor;
+  font-weight: 300;
+  color: $alternativas;
   line-height: 1.5em;
   font-size: $fontSizeQuestion;
 
@@ -14,23 +14,11 @@
     margin-top: 0 !important;
   }
 
-  
-  &.item_romano_itens .css_03_exercicio_alternativa_item {
-    &::before {
-      font-family: $fontName;
-      font-size: $fontSizeIndiceQuestion;
-      font-weight: 600;
-      counter-increment: list;
-      content: counter(list, lower-alpha) ")";
-      position: absolute;
-      left: -30px;
-    }
-  }
-
   &.itens .css_03_exercicio_alternativa_item {
     &::before {
       counter-increment: list;
       content: counter(list, decimal) ".";
+      color: $alternativas;
     }
   }
 
@@ -38,6 +26,7 @@
     &::before {
       counter-increment: list;
       content: counter(list, upper-roman) ".";
+      color: #000 !important;
     }
   }
 
@@ -50,6 +39,7 @@
       position: absolute;
       left: -32px;
       top: 0;
+      color: $alternativas;
     }
 
     &::before {
@@ -59,6 +49,7 @@
       content: ")";
       position: absolute;
       left: -16px;
+      color: $alternativas;
     }
   }
 }

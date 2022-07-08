@@ -4,7 +4,7 @@
   position: relative;
   display: grid;
   grid-template-columns: min-content auto;
-  gap: 8px;
+  gap: 4px;
 
   font-family: $fontName;
   font-weight: 400;
@@ -21,10 +21,10 @@
       height: 24px;
 
 
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+      // text-align: center;
 
 
       .number_exercicio {
@@ -44,15 +44,46 @@
     }
   }
 
+  // code question bncc
+  ._05bncc {
+    display: none;
+    width: fit-content;
+    height: 15px;
+
+    background-color: #c8d300;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    padding: 1px 3px;
+
+    .text_bncc {
+      font-family: $fontPrincipal;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 15px;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+    }
+  }
+
   &.artes {
     .background_number {
       font-weight: 700;
 
       .number_exercicio {
-        color: #64428C;
-        border-bottom: solid 3px #bfd730;
-      }
+        color: #8AB5E1;
+        position: relative;
 
+        &::after {
+          content: '.';
+          width: 2px;
+          height: 2px;
+          position: absolute;
+          color: #8AB5E1;
+        }
+      }
     }
   }
 
@@ -62,7 +93,6 @@
 
       .number_exercicio {
         color: #069891;
-        border-bottom: solid 3px #bfd730;
       }
     }
   }
@@ -73,7 +103,6 @@
 
       .number_exercicio {
         color: #c9252c;
-        border-bottom: solid 3px #bfd730;
       }
     }
   }
@@ -84,7 +113,6 @@
 
       .number_exercicio {
         color: #1961AC;
-        border-bottom: solid 3px #F1CB40;
       }
     }
   }

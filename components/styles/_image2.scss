@@ -1,7 +1,6 @@
 /* Image component style */
 .image2 {
   margin: 12px auto;
-  margin-bottom: 0;
   position: relative;
   clear: both;
   display: flex;
@@ -10,6 +9,10 @@
 
   ._image {
     width: 100%;
+  }
+
+  &._image2_titulo{
+    margin: 0 auto !important;
   }
 
   &._fit_content {

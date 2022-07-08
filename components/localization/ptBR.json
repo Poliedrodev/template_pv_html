@@ -41,6 +41,7 @@
   "PROPERTY_DISABLE_FULLSCREEN_LABEL": "Desabilitar modo tela cheia (Adobe AEM)",
   "PROPERTY_DROP_CAP_LABEL": "Capitular",
   "PROPERTY_EDIT_IMAGE_LABEL": "Editar imagem",
+  "PROPERTY_IMAGE_HEIGHT_LABEL": "Editar altura da imagem",
   "PROPERTY_EMBED_CODE_LABEL": "Código embutido",
   "PROPERTY_EMBED_CODE_PLACEHOLDER": "Cole o código embutido aqui",
   "PROPERTY_FITTING_LABEL": "Enquadramento",

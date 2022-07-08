@@ -141,6 +141,28 @@ $phone-max-width: 481px;
 // Question
 $fontSizeQuestion: 18px;
 $fontSizeIndiceQuestion: 18px;
+$alternativas: #888888;
+
+// style seções
+// revisando
+$blue: #0089CD;
+$blue_light: #8AB5E1;
+$purple: #005F8D;
+
+// exercicios_propostos
+$yellow: #C8D300;
+$green: #5B792A;
+$green_dark: #9AA400;
+
+// BNCC_em_foco
+$red:#C51A1B;
+$red_dark:#981711;
+$pink: #D75F60;
+
+// Exercícios complementares
+$color_1: #F08589;
+
+
 
 // Remove default style
 ol,
@@ -174,11 +196,12 @@ h3 {
 @import url(https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Rubik:ital,wght@0,300;0,600;0,700;0,800;1,300;1,600&family=Ubuntu:wght@700&display=swap);
 
 /* Article view style */
-html,
-body {
+
+.body-book,
+.body {
   padding: 0;
   margin: 0;
-  font: $defaultFontSize $fontName;
+  font: $defaultFontSize $fontPrincipal;
   color: $textColor;
   background-color: $bodyBackground;
   font-weight: $defaultFontWeight;
@@ -192,9 +215,8 @@ body {
   }
 }
 
-body {
+.body {
   max-width: $max-width;
-  padding: 0 5px;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;
@@ -247,7 +269,8 @@ span[data-text-edit-color] {
 .hero-js {
   height: 100%;
 
-  body {
+  .body,
+  .body-book {
     height: 100%;
   }
 
@@ -309,7 +332,8 @@ span[data-text-edit-color] {
   }
 
   &.hero-js-android {
-    body {
+    .body,
+    .body-book {
       max-width: none;
     }
 

@@ -6,5 +6,19 @@
   font-size: 12px;
   position: absolute;
   width: 500px;
-  top: -14px;
+  top: -30px;
+
+}
+
+.css_99_bancoquestao:empty {
+  position: absolute;
+
+  &::after {
+    content: 'METADADO';
+    color: #fff;
+    height: 16px;
+    position: absolute;
+    width: fit-content;
+    background-color: rgb(42, 111, 214);
+  }
 }
