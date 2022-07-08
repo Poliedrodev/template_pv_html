@@ -715,6 +715,28 @@
       }
     },
     {
+      "name": "css_01_titulo5",
+      "icon": "icons/components/icon_01_titulo4.svg",
+      "label": "01 Título 5",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_01_titulo6",
+      "icon": "icons/components/icon_01_titulo4.svg",
+      "label": "01 Título 6",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "css_02_texto_bullet",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Container Lista Bullet",
@@ -3686,7 +3708,9 @@
         "css_01_titulo1",
         "css_01_titulo2",
         "css_01_titulo3",
-        "css_01_titulo4"
+        "css_01_titulo4",
+        "css_01_titulo5",
+        "css_01_titulo6"
       ]
     },
     {
