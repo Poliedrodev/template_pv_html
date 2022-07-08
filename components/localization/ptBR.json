@@ -66,5 +66,11 @@
     "TEMPLATE_PRODUCT_DESCRIPTION_PLACEHOLDER": "Escreva uma breve descrição do produto.",
     "TEMPLATE_PRODUCT_LINK_PLACEHOLDER": "www.example.com",
     "TEMPLATE_PRODUCT_PRICE_PLACEHOLDER": "Preço do produto",
-    "TEMPLATE_PRODUCT_TITLE_PLACEHOLDER": "Nome do produto"
+    "TEMPLATE_PRODUCT_TITLE_PLACEHOLDER": "Nome do produto",
+    "FONTE_MAPA": "Digite a fonte do mapa",
+    "CREDITO_MAPA":"Digite a legenda do mapa",
+    "SUBTITLE_MAPA": "Digite a legenda do mapa",
+    "FONTE_GRAFICO": "Digite a fonte do gráfico",
+    "CREDITO_GRAFICO":"Digite a legenda do gráfico",
+    "SUBTITLE_GRAFICO": "Digite a legenda do gráfico"
 }

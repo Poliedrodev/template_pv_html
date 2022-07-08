@@ -1,77 +1,87 @@
 .css_05_mapa_titulo {
   display: block;
   align-items: left;
-  font-size: 20px;  
+  font-size: 20px;
   font-family: $fontPrincipal;
   font-weight: 700;
-  border-bottom: dotted 2px;
-  padding: 8px;
- 
+  margin: 16px 0 0 0;
 
- /* Variações de cores */
- &.artes {
-  border-color: $art_cor1 ;
-  color: $art_cor1;
-}
+  .mapa_image {
+    margin: 0;
+    width: 100%;
+    padding-top: 8px;
+  }
+  .mapa_titulo{
+    border-bottom: dotted 2px $art_cor1;
+    padding-bottom: 8px;
+    color: $art_cor1;
+  }
+  
+  /* Variações de cores */
+  &.artes .mapa_titulo {
+    border-bottom: dotted 2px $art_cor1 ;
+    color: $art_cor1;
+  }
 
-&.biologia {
-  border-color:$bio_cor1;
-  color: $bio_cor1;
-}
+  &.biologia .mapa_titulo {
+    border-bottom: dotted 2px $bio_cor1;
+    color: $bio_cor1;
+  }
 
-&.fisica {
-  border-color:$fis_cor1;
-  color: $fis_cor1;
-}
+  &.fisica .mapa_titulo {
+    border-bottom: dotted 2px $fis_cor1;
+    color: $fis_cor1;
+  }
 
-&.quimica {
-  border-color:$qui_cor1;
-  color: $qui_cor1;
-}
+  &.quimica .mapa_titulo {
+    border-bottom: dotted 2px $qui_cor1;
+    color: $qui_cor1;
+  }
 
-&.geografia {
-  border-color: $geo_cor1;
-  color: $geo_cor1;
-}
+  &.geografia .mapa_titulo {
+    border-bottom: dotted 2px $geo_cor1;
+    color: $geo_cor1;
+  }
 
-&.historia {
-  border-color: $his_cor1;
-  color: $his_cor1;
-}
+  &.historia .mapa_titulo {
+    border-bottom: dotted 2px $his_cor1;
+    color: $his_cor1;
+  }
 
-&.lingua_inglesa {
-  border-color: $ing_cor1;
-  color: $ing_cor1;
-}
+  &.lingua_inglesa .mapa_titulo {
+    border-bottom: dotted 2px $ing_cor1;
+    color: $ing_cor1;
+  }
 
-&.lingua_portuguesa {
-  border-color: $por_cor1;
-  color: $por_cor1;
-}
+  &.lingua_portuguesa .mapa_titulo {
+    border-bottom: dotted 2px  $por_cor1;
+    color: $por_cor1;
+  }
 
-&.redacao {
-  border-color: $red_cor1;
-  color: $red_cor1;
-}
+  &.redacao .mapa_titulo {
+    border-bottom: dotted 2px $red_cor1;
+    color: $red_cor1;
+  }
 
-&.inter_de_texto {
-  border-color: $int_cor1;
-  color: $int_cor1;
-}
+  &.inter_de_texto .mapa_titulo {
+    border-bottom: dotted 2px $int_cor1;
+    color: $int_cor1;
+  }
 
-&.matematica {
-  border-color: $mat_cor1;
-  color: $mat_cor1;
-}
+  &.matematica .mapa_titulo {
+    border-bottom: dotted 2px $mat_cor1;
+    color: $mat_cor1;
+  }
 
-&.sociologia{
-  border-color: $soc_cor1;
-  color: $soc_cor1;
-}
-&.filosofia{
-  border-color: $fil_cor1;
-  color: $fil_cor1;
-}
+  &.sociologia .mapa_titulo {
+    border-bottom: dotted 2px $soc_cor1;
+    color: $soc_cor1;
+  }
 
+  &.filosofia .mapa_titulo {
+    border-bottom: dotted 2px $fil_cor1;
+    color: $fil_cor1;
+  }
+  
 
 }

@@ -1,0 +1,36 @@
+.css_02_linha_pontilhada {
+  display: block;
+  text-align: left;
+  font-size: 17px;
+  color: $textColor;
+  font-family: $fontPrincipal;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-top: 24px;
+  padding: 24px;
+  border-bottom: dotted 2px;
+  width: 100%;
+
+  .texto_pontilhada{
+  padding: 27px;
+  }
+  /* Variações de cores */
+
+  &.mat_e_suas_tec {
+    border-color:$seg_mat_cor1;
+  }
+
+  &.cie_da_nat {
+    border-color:$seg_nat_cor1;
+  }
+
+  &.linguagens {
+    border-color: $seg_lin_cor1;
+  }
+
+  &.cie_humanas{
+    border-color: $seg_hum_cor1;
+  }
+
+
+}
