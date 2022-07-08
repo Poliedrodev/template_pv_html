@@ -1,0 +1,82 @@
+.container_saiba_mais {
+  width: 100%;
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #E50051;
+  border-radius: 15px 0px 0px 0px;
+
+  position: relative;
+
+  .header_saiba_mais {
+    display: flex;
+
+    position: absolute;
+    top: -1px;
+    left: -1px;
+
+    ._background_icon_saiba_mais {
+      display: flex;
+      width: 36px;
+      height: 36px;
+
+      background: #7B0041;
+      border-radius: 15px 0px 0px 0px;
+
+      .icon_saiba_mais {
+        width: 24px;
+        height: 24px;
+        background-repeat: no-repeat;
+        margin: auto;
+      }
+    }
+
+    .background_title_saiba_mais {
+      width: fit-content;
+      height: 36px;
+      background-color: #E50051;
+      display: grid;
+      place-items: center;
+      padding-left: 8px;
+      padding-right: 9px;
+
+      .title_saiba_mais {
+        font-family: $fontTitulo;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  &._saiba_mais {
+    .icon_saiba_mais {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/pv/pv-saiba-mais.svg");
+    }
+  }
+
+  &._estabelecendo_relacoes {
+    .icon_saiba_mais {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/pv/pv-estabelecendo.svg");
+    }
+  }
+
+  &._atencao {
+    .icon_saiba_mais {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/pv/pv-atencao.svg");
+    }
+  }
+
+  .main_saiba_mais {
+    margin: 56px 40px 41px 40px;
+  }
+
+  [doc-container]:empty {
+    min-height: 50px;
+    background-color: #fff0f0;
+  }
+}

@@ -20,9 +20,8 @@ const scriptFiles = [
     path.join(scriptsDir, 'jquery.js'),
 
     // Support scripts for slideshows components
-    path.join(scriptsDir, 'jssor.js'),
-    path.join(scriptsDir, 'jssor.slider.js'),
-    path.join(scriptsDir, 'slideshow.js'),
+    path.join(scriptsDir, 'dropdown.js'),
+    
 
     // Support script for parallax effect hero components
     path.join(scriptsDir, 'heroes.js'),

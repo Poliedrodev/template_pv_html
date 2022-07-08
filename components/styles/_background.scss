@@ -1,0 +1,72 @@
+.body-book {
+  &.artes {
+    background-color: #D1C7DD;
+  }
+
+  &.biologia {
+    background-color: #C8E0C5;
+  }
+
+  &.filosofia {
+    background-color: #CCD4E5;
+  }
+
+  &.fisica {
+    background-color: #B3DEE1;
+  }
+
+  &.geografia {
+    background-color: #F4CCB6;
+  }
+
+  &.historia {
+    background-color: #E0BBDA;
+  }
+
+  &.inter_de_texto {
+    background-color: #B7DAE5;
+  }
+
+  &.lingua_inglesa {
+    background-color: #B5E1DE;
+  }
+
+  &.lingua_portuguesa {
+    background-color: #EEBBBB;
+  }
+
+  &.matematica {
+    background-color: #BAD0E7;
+  }
+
+  &.quimica {
+    background-color: #EAB3D5;
+  }
+
+  &.redacao {
+    background-color: #EAC0D3;
+  }
+
+  &.sociologia {
+    background-color: #EFB9CC;
+  }
+
+  &.edit-mode {
+    [doc-container] {
+      padding-bottom: 24px !important;
+      border-bottom: 3px solid #cecece !important;
+    }
+
+    [doc-container]:empty {
+      padding-bottom: 0 !important;
+      border-bottom: 0 !important;
+    }
+
+    [doc-editable] .empty-editable {
+      background-color: orange;
+      min-width: 5px;
+      min-height: 3px;
+    }
+  }
+
+}

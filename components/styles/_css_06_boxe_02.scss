@@ -1,0 +1,193 @@
+.css_06_boxe_02 {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+
+  .header_06_boxe_02 {
+    width: fit-content;
+    height: 36px;
+    background: #C51A1B;
+    border-radius: 0px 20px 0px 0px;
+
+    display: grid;
+    place-items: center;
+    padding-left: 16px;
+    padding-right: 23px;
+
+
+    .title_06_boxe_02 {
+      font-family: $fontTitulo;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+  }
+
+  .main_06_boxe_02 {
+    padding: 40px;
+    
+    border: 1px solid #C51A1B;
+    border-radius: 0px 15px 15px 15px;
+  }
+
+
+  .main_06_boxe_02 :first-child{
+    margin-top: 0 !important;
+  }
+
+// STYLE MATERIAS
+  &._texto_complementar.artes{
+    .header_06_boxe_02 {
+      background: $art_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $art_cor1;
+    }
+  }
+
+  &._texto_complementar.biologia{
+    .header_06_boxe_02 {
+      background: $bio_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $bio_cor1;
+    }
+  }
+
+  &._texto_complementar.filosofia{
+    .header_06_boxe_02 {
+      background: $fil_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $fil_cor1;
+    }
+  }
+
+  &._texto_complementar.fisica{
+    .header_06_boxe_02 {
+      background: $fis_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $fis_cor1;
+    }
+  }
+
+  &._texto_complementar.geografia{
+    .header_06_boxe_02 {
+      background: $geo_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $geo_cor1;
+    }
+  }
+
+  &._texto_complementar.historia{
+    .header_06_boxe_02 {
+      background: $his_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $his_cor1;
+    }
+  }
+
+  &._texto_complementar.inter_de_texto{
+    .header_06_boxe_02 {
+      background: $int_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $int_cor1;
+    }
+  }
+
+  &._texto_complementar.lingua_inglesa{
+    .header_06_boxe_02 {
+      background: $ing_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $ing_cor1;
+    }
+  }
+
+  &._texto_complementar.lingua_portuguesa{
+    .header_06_boxe_02 {
+      background: $por_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $por_cor1;
+    }
+  }
+
+  &._texto_complementar.matematica{
+    .header_06_boxe_02 {
+      background: $mat_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $mat_cor1;
+    }
+  }
+
+  &._texto_complementar.redacao{
+    .header_06_boxe_02 {
+      background: $red_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $red_cor1;
+    }
+  }
+
+  &._texto_complementar.quimica{
+    .header_06_boxe_02 {
+      background: qui_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid qui_cor1;
+    }
+  }
+
+  &._texto_complementar.sociologia{
+    .header_06_boxe_02 {
+      background: $soc_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $soc_cor1;
+    }
+  }
+
+  // STYLE AREAS
+  &._resumindo._cie_hu_so_api{
+    .header_06_boxe_02 {
+      background: $seg_hum_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $seg_hum_cor1;
+    }
+  }
+
+  &._resumindo._mat_su_tec{
+    .header_06_boxe_02 {
+      background: $seg_mat_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $seg_mat_cor1;
+    }
+  }
+
+  &._resumindo._cie_hu_su_tec{
+    .header_06_boxe_02 {
+      background: $seg_nat_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $seg_nat_cor1;
+    }
+  }
+
+  &._resumindo._lin_su_tec{
+    .header_06_boxe_02 {
+      background: $seg_lin_cor1;
+    }
+    .main_06_boxe_02 {
+      border: 1px solid $seg_lin_cor1;
+    }
+  }
+}
