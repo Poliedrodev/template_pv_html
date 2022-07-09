@@ -23,11 +23,114 @@
     }
   }
 
-  .main_texto_destaque{
+  .main_texto_destaque {
     padding-left: 40;
     padding-right: 40;
     padding-top: 27px;
     padding-bottom: 32px;
   }
 
+  &.artes {
+    border: 1px solid $art_cor1;
+  }
+
+  &.artes .header_texto_destaque {
+    border-bottom: 1px solid $art_cor1;
+  }
+
+  &.biologia {
+    border: 1px solid $bio_cor1;
+  }
+
+  &.biologia .header_texto_destaque {
+    border-bottom: 1px solid $bio_cor1;
+  }
+
+  &.fisica {
+    border: 1px solid $fis_cor1;
+  }
+
+  &.fisica .header_texto_destaque {
+    border-bottom: 1px solid $fis_cor1;
+  }
+
+  &.quimica {
+    border: 1px solid $qui_cor1;
+  }
+
+  &.quimica .header_texto_destaque {
+    border-bottom: 1px solid $qui_cor1;
+  }
+
+  &.geografia {
+    border: 1px solid $geo_cor1;
+  }
+
+  &.geografia .header_texto_destaque {
+    border-bottom: 1px solid $geo_cor1;
+  }
+
+  &.historia {
+    border: 1px solid $his_cor1;
+  }
+
+  &.historia .header_texto_destaque {
+    border-bottom: 1px solid $his_cor1;
+  }
+
+  &.lingua_inglesa {
+    border: 1px solid $ing_cor1;
+  }
+
+  &.lingua_inglesa .header_texto_destaque {
+    border-bottom: 1px solid $ing_cor1;
+  }
+
+  &.lingua_portuguesa {
+    border: 1px solid $por_cor1;
+  }
+
+  &.lingua_portuguesa .header_texto_destaque {
+    border-bottom: 1px solid $por_cor1;
+  }
+
+  &.redacao {
+    border: 1px solid $red_cor1;
+  }
+
+  &.redacao .header_texto_destaque {
+    border-bottom: 1px solid $red_cor1;
+  }
+
+  &.inter_de_texto {
+    border: 1px solid $int_cor1;
+  }
+
+  &.inter_de_texto .header_texto_destaque {
+    border-bottom: 1px solid $int_cor1;
+  }
+
+  &.matematica {
+    border: 1px solid $mat_cor1;
+  }
+
+  &.matematica .header_texto_destaque {
+    border-bottom: 1px solid $mat_cor1;
+  }
+
+  &.sociologia {
+    border: 1px solid $soc_cor1;
+  }
+
+  &.sociologia .header_texto_destaque {
+    border-bottom: 1px solid $soc_cor1;
+  }
+
+  &.filosofia {
+    border: 1px solid $fil_cor1;
+  }
+
+  &.filosofia .header_texto_destaque {
+    border-bottom: 1px solid $fil_cor1;
+  }
 }

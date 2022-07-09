@@ -1,61 +1,62 @@
 .css_02_texto_destaque {
+  margin: 28px;
   display: block;
   border: 1px solid #FFFFFF;
   font-size: 17px;
   font-family: $fontPrincipal;
   font-weight: 300;
-  margin: 0px;
   line-height: 1.5em;
   padding: 24px;
-  
+
   &.artes {
-    border:1px solid $art_cor1;
+    border: 1px solid $art_cor1;
   }
 
   &.biologia {
-      border: 1px solid $bio_cor1;
+    border: 1px solid $bio_cor1;
   }
 
   &.fisica {
     border: 1px solid $fis_cor1;
   }
 
-&.quimica {
-  border: 1px solid $qui_cor1;
+  &.quimica {
+    border: 1px solid $qui_cor1;
   }
 
   &.geografia {
-      border: 1px solid $geo_cor1;
+    border: 1px solid $geo_cor1;
   }
 
   &.historia {
-      border: 1px solid $his_cor1;
+    border: 1px solid $his_cor1;
   }
 
   &.lingua_inglesa {
-      border: 1px solid $ing_cor1;
+    border: 1px solid $ing_cor1;
   }
 
   &.lingua_portuguesa {
-      border: 1px solid $por_cor1;
+    border: 1px solid $por_cor1;
   }
 
   &.redacao {
     border: 1px solid $red_cor1;
   }
+
   &.inter_de_texto {
     border: 1px solid $int_cor1;
   }
 
   &.matematica {
-      border: 1px solid $mat_cor1;
+    border: 1px solid $mat_cor1;
   }
 
-  &.sociologia{
+  &.sociologia {
     border: 1px solid $soc_cor1;
   }
-  &.filosofia{
+
+  &.filosofia {
     border: 1px solid $fil_cor1;
   }
-
 }

@@ -6,4 +6,39 @@
   font-weight: 300;
   line-height: 1.5em;
   padding-inline-start: 20px;
+
+  .css_02_texto_bullet_itens {
+    position: relative;
+  }
+
+  &._texto_traco {
+    list-style-type: none;
+  }
+
+  &._texto_traco .css_02_texto_bullet_itens {
+    &::before {
+      content: '';
+      width: 12px;
+      height: 2px;
+      background-color: #000000;
+      position: absolute;
+      top: 7px;
+      left: -17px;
+    }
+  }
+
+  &._texto_bullet {
+    list-style-type: disc;
+  }
+
+  &._texto_bullet .css_02_texto_bullet_itens{
+    &::before {
+      display: none;
+    }
+  }
+
+  &._texto_number {
+    list-style-type: decimal;
+  }
+  
 }

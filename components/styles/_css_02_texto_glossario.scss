@@ -1,17 +1,13 @@
 .css_02_texto_glossario {
-
-    display: block;
-    text-align: center;
-    font-size: 17px;
-    color: $textColor;
-    font-family: $fontPrincipal;
-    font-weight: 300;
-    line-height: 1.5em;
-    margin-top: 24px;
-    padding: 21px 40px;
-    border-radius: 8px;
-    background-color: $geral_1C;
-    flex-wrap: wrap;
-   
-  
+  display: block;
+  font-size: 17px;
+  color: $textColor;
+  font-family: $fontPrincipal;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-top: 24px;
+  padding: 21px 40px;
+  border-radius: 8px;
+  background-color: $geral_1C;
+  flex-wrap: wrap;
 }
