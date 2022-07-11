@@ -18,6 +18,8 @@ const scriptsDir = path.join(__dirname, './scripts');
 const scriptFiles = [
     // JQuery libraries used by below support scripts
     path.join(scriptsDir, 'jquery.js'),
+    path.join(scriptsDir, 'inline.js'),
+    path.join(scriptsDir, 'radio.js'),
 
     // Support scripts for slideshows components
     path.join(scriptsDir, 'dropdown.js'),

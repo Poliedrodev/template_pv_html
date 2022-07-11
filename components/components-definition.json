@@ -3637,6 +3637,39 @@
       }
     },
     {
+      "name": "image_inline",
+      "icon": "icons/components/image.svg",
+      "label": "Imagem Inline",
+      "properties": [
+        {
+          "name": "fitting",
+          "defaultValue": "_fit-frame-height-to-content"
+        },
+        "position",
+        "style",
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        {
+          "name": "edit-image",
+          "directiveKey": "image"
+        },
+        {
+          "name": "hyperlink",
+          "directiveKey": "hyperlink"
+        }
+      ],
+      "directiveOptions": {
+        "caption": {
+          "autofill": {
+            "source": "image",
+            "metadataField": "ContentMetaData/Description"
+          }
+        }
+      }
+    },
+    {
       "name": "slideshow_img",
       "icon": "icons/components/slideshow.svg",
       "label": "Imagem",
@@ -3921,6 +3954,7 @@
       "name": "media",
       "components": [
         "image2",
+        "image_inline",
         "embed",
         "product",
         "social-media",
@@ -5413,7 +5447,8 @@
       "footer",
       "quote",
       "crosshead",
-      "image"
+      "image",
+     " image_inline"
     ]
   },
   "scripts": [
