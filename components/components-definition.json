@@ -1842,6 +1842,13 @@
       }
     },
     {
+      "name": "container_questao_soma",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Quadrinho Soma",
+      "properties": []
+    },
+    {
       "name": "css_06_boxe_exercicio_continuacao",
       "icon": "icons/components/icon_06_boxe_exercicio_continuacao.svg",
       "label": "06 Boxe Exercício Continuação",
@@ -3750,6 +3757,7 @@
         "css_03_exercicio_enunciado",
         "css_03_exercicio_continuacao",
         "css_03_exercicio_alternativa_edit",
+        "container_questao_soma",
         "css_03_exercicio_alternativa",
         "css_03_exercicio_alternativa_assinalar",
         "css_03_exercicio_bullet",
