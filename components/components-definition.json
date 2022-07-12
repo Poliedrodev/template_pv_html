@@ -5447,8 +5447,7 @@
       "footer",
       "quote",
       "crosshead",
-      "image",
-     " image_inline"
+      "image"
     ]
   },
   "scripts": [
