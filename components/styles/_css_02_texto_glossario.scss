@@ -10,4 +10,15 @@
   border-radius: 8px;
   background-color: $geral_1C;
   flex-wrap: wrap;
+
+  .css_02_texto_glossario_bold {
+    display: none;
+  }
+
+  &._add_credit {
+    .css_02_texto_glossario_bold {
+      font-weight: 600;
+      display: inline-block;
+    }
+  }
 }

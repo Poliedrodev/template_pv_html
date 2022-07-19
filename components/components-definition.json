@@ -973,6 +973,7 @@
       "icon": "icons/components/icon_02_texto_glossario.svg",
       "label": "02 Texto Glossário",
       "properties": [
+        "style_fonte",
         "style",
         "text-align",
         "position",
@@ -1655,6 +1656,7 @@
       "label": "05 Fonte Mapa",
       "properties": [
         "style",
+        "text-align",
         "letter-spacing",
         "line-height"
       ],
@@ -1669,6 +1671,7 @@
       "icon": "icons/components/icon_05_fonte.svg",
       "label": "05 Fonte",
       "properties": [
+        "text-align",
         "style",
         "letter-spacing",
         "line-height"
@@ -4205,7 +4208,8 @@
             "caption": {
               "key": "PROPERTY_POSITION_LEFT_OPTION"
             },
-            "icon": "icons/properties/text-align-left.svg"
+            "icon": "icons/properties/text-align-left.svg",
+            "value": "_align-left"
           },
           {
             "caption": {

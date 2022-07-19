@@ -1,7 +1,8 @@
 /* Cores básicas */
 $branco: #ffffff;
 $preto: #000000;
-$cinza: #888888;;
+$cinza: #888888;
+;
 $arte: #b92e74;
 $edicao: #2f7a8d;
 $revisao: #b47331;
@@ -114,21 +115,21 @@ $seg_hum_cor2: #186C4C;
 $seg_hum_cor3: #6E9D88;
 
 /* Gerais */
-$geral_1A:#F08589;
-$geral_1B:#8AB5E1;
-$geral_1C:#F7EAC7;
-$geral_2A:#E50051;
-$geral_2B:#0089CD;
-$geral_2C:#888888;
-$geral_3A:#7B0041;
-$geral_3B:#005F8D;
-$geral_3C:#000000;
+$geral_1A: #F08589;
+$geral_1B: #8AB5E1;
+$geral_1C: #F7EAC7;
+$geral_2A: #E50051;
+$geral_2B: #0089CD;
+$geral_2C: #888888;
+$geral_3A: #7B0041;
+$geral_3B: #005F8D;
+$geral_3C: #000000;
 
 /* Outros */
 $fontPrincipal: 'Rubik';
 $fonteSerifa: 'Crimson Text';
 $fontTitulo: 'Ubuntu';
-$fontName:'Rubik';
+$fontName: 'Rubik';
 
 $defaultFontSize: 14px;
 $defaultFontWeight: 300;
@@ -155,8 +156,8 @@ $green: #5B792A;
 $green_dark: #9AA400;
 
 // BNCC_em_foco
-$red:#C51A1B;
-$red_dark:#981711;
+$red: #C51A1B;
+$red_dark: #981711;
 $pink: #D75F60;
 
 // Exercícios complementares
@@ -174,7 +175,11 @@ li {
 p,
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6,
+blockquote {
   margin: 0;
   padding: 0;
 }
@@ -251,6 +256,14 @@ span[data-text-edit-color] {
 
 ._align-middle {
   text-align: center;
+}
+
+._left-right {
+  text-align: right;
+}
+
+._align-left {
+  text-align: left;
 }
 
 /* media query */
@@ -331,6 +344,7 @@ span[data-text-edit-color] {
   }
 
   &.hero-js-android {
+
     .body,
     .body-book {
       max-width: none;
