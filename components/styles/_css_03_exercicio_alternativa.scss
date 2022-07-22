@@ -31,6 +31,10 @@
   }
 
   &.alternativa_assinalar_itens .css_03_exercicio_alternativa_item {
+    &::before {
+      display: none;
+    }
+
     &::after {
       content: "";
       position: absolute;
